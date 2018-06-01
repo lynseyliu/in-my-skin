@@ -69,7 +69,7 @@ def test(net, dataloader, tag=''):
                 class_total[label] += 1
 
 
-    for i in range(10):
+    for i in range(2):
         net.log('%s Accuracy of %5s : %2d %%' % (
             tag, dataloader.classes[i], 100 * class_correct[i] / class_total[i]))
 
