@@ -7,7 +7,6 @@ class IsicLoader(object):
 	def __init__(self, args):
 		super(IsicLoader, self).__init__()
 		transform = transforms.Compose([
-			# TODO: Add data augmentations here
 			transforms.CenterCrop(700),
 			transforms.Resize(32),
 			transforms.ToTensor(),
@@ -15,6 +14,8 @@ class IsicLoader(object):
 		])
 
 		transform_test = transforms.Compose([
+			transforms.CenterCrop(700),
+			transforms.Resize(32),
 		    transforms.ToTensor(),
 		    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)), 
 		])
