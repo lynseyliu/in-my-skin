@@ -33,16 +33,16 @@ def main():
 				mtotal +=(float(line[:-1].split(' ')[-2]))
 
 	# True was benign and predicted was benign
-	avg00 = btotal/bcount / 100
+	avg00 = round(btotal/bcount / 100, 3)
 	
 	# True was benign and predicted was malignant
-	avg01 = 1 - avg00
+	avg01 = round(1 - avg00, 3)
 	
 	# True was malignant and predicted was malignant
-	avg11 = mtotal/mcount / 100
+	avg11 = round(mtotal/mcount / 100, 3)
 	
 	# True was malignant and predicted was benign
-	avg10 = 1 - avg11
+	avg10 = round(1 - avg11, 3)
 	
 	conf_arr = [[avg00,avg01], 
             [avg10,avg11]]
@@ -75,7 +75,7 @@ def main():
 	plt.yticks(range(2), alphabet[:2])
 	plt.xlabel('Predicted')
 	plt.ylabel('True')
-	plt.title('LazyNet non-augmented confusion matrix')
+	plt.title('LazyNet nonaugmented confusion matrix')
 	plt.savefig('lazynet_nonaugmented_confusion_matrix.png', format='png')
 
 if __name__ == '__main__':
