@@ -1,0 +1,50 @@
+[1,    50] loss: 0.606
+[1,   100] loss: 0.548
+[1,   150] loss: 0.482
+[1,   200] loss: 0.469
+[1,   250] loss: 0.457
+[1,   300] loss: 0.461
+[1,   350] loss: 0.443
+Final Summary:   loss: 0.499
+Train Accuracy of the network: 82 %
+Train Accuracy of benign : 100 %
+Train Accuracy of malignant :  0 %
+Test Accuracy of the network: 79 %
+Test Accuracy of benign : 100 %
+Test Accuracy of malignant :  0 %
+[2,    50] loss: 0.474
+[2,   100] loss: 0.480
+[2,   150] loss: 0.487
+[2,   200] loss: 0.396
+[2,   250] loss: 0.473
+[2,   300] loss: 0.482
+[2,   350] loss: 0.434
+Final Summary:   loss: 0.458
+Train Accuracy of the network: 82 %
+Train Accuracy of benign : 100 %
+Train Accuracy of malignant :  0 %
+Test Accuracy of the network: 79 %
+Test Accuracy of benign : 100 %
+Test Accuracy of malignant :  0 %
+[3,    50] loss: 0.474
+[3,   100] loss: 0.438
+[3,   150] loss: 0.435
+[3,   200] loss: 0.452
+[3,   250] loss: 0.492
+[3,   300] loss: 0.453
+[3,   350] loss: 0.467
+Final Summary:   loss: 0.457
+Train Accuracy of the network: 82 %
+Train Accuracy of benign : 100 %
+Train Accuracy of malignant :  0 %
+Test Accuracy of the network: 79 %
+Test Accuracy of benign : 100 %
+Test Accuracy of malignant :  0 %
+[4,    50] loss: 0.482
+[4,   100] loss: 0.465
+[4,   150] loss: 0.415
+[4,   200] loss: 0.437
+[4,   250] loss: 0.410
+[4,   300] loss: 0.486
+[4,   350] loss: 0.506
+Final Summary:   loss: 0.457
